@@ -92,8 +92,8 @@ class OllamaLLM(LLM):
             tools=tool_definitions,
         )
 
-        # print("LLM Response Full:")
-        # print(response.message)
+        print("LLM Response Full:")
+        print(response.message)
 
         tool_calls: List[ToolCall] = []
 

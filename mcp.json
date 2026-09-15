@@ -8,6 +8,14 @@
         "${MCP_WORKSPACE_PATH}"
       ],
       "shell": true
+      },
+  "git": {
+  "command": "uvx",
+  "args": [
+    "mcp-server-git",
+    "--repository",
+    "${MCP_WORKSPACE_PATH}"
+  ]
     }
   }
 }
